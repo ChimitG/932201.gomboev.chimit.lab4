@@ -99,6 +99,9 @@ a:hover{
     padding: 0;
     border: 5px solid #e1e5eb;
 }
+a{
+    color: #2e5473;
+}
 @media(max-width: 1000px){
     section{
 	    display:block;
