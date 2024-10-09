@@ -147,12 +147,20 @@ a{
     }
     ul
     {
-        width:100%;
+        width:300px;
+        flex: 1 1 110px;
     }
     nav{
         align-items: center;
         display:flex;
         max-width: 500px;
+        height: 80px;
+        flex-wrap:inherit;
+    }
+    div.box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
     ul{
         margin-right: 20px;
