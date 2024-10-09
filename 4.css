@@ -7,6 +7,9 @@
 }
 header{
     background-color: #507299;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 header > img{
 	background-color: #507299;
@@ -122,6 +125,7 @@ a{
         box-sizing:border-box;
         color: #2e5473;
         position:absolute;
+        
     }
     ul{
         color: #2e5473;
